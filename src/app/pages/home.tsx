@@ -16,15 +16,15 @@ export function Home() {
             <div className="relative">
               <div className="w-80 h-80 rounded-full overflow-hidden border-4 border-primary/20 shadow-lg">
                 {/* Placeholder for headshot - replace with your image */}
-                <div className="w-full h-full bg-gradient-to-br from-primary/10 via-blue-400/10 to-pink-400/10 flex items-center justify-center">
+                {/* <div className="w-full h-full bg-gradient-to-br from-primary/10 via-blue-400/10 to-pink-400/10 flex items-center justify-center">
                   <span className="text-6xl text-muted-foreground/30">👤</span>
-                </div>
+                </div> */}
                 {/* Uncomment below and add your image */}
-                {/* <img 
-                  src="/path/to/your/headshot.jpg" 
+                <img 
+                  src="/../../../img/profile-picture.jpg" 
                   alt="Ivory Tang" 
                   className="w-full h-full object-cover"
-                /> */}
+                />
               </div>
               {/* Decorative accent */}
               <motion.div
@@ -66,22 +66,22 @@ export function Home() {
             </motion.h1>
             
             <h2 className="text-2xl text-foreground mb-6">
-              Computational Data Analyst
+              Data Analyst
             </h2>
             
             <div className="space-y-4 text-muted-foreground mb-8">
               <p>
-                Hello! I'm a recent graduate from the University of Virginia (UVA) and currently working
-                as a data analyst in the Miller Lab @ UVA. I use single-cell sequencing analysis to 
-                examine the regulatory programs underlying cardiovascular disease.
+                Hi, I'm a recent graduate from the University of Virginia and currently working
+                as a computational data analyst in the Miller Lab at UVA. I use single-cell sequencing analysis to 
+                examine regulatory programs driving cardiovascular disease.
               </p>
               <p>
-                With a strong foundation in statistical modeling, I transform complex biological data 
-                into actionable insights. My work spans from Kaggle competitions 
-                to cutting-edge genomics research, always driven by curiosity and a passion for discovery.
+                With a strong foundation in statistical modeling and computer science, I transform complex data 
+                into biological insights. In addition to genomics research, I enjoy participating in Kaggle 
+                competitions, always driven by curiosity and a passion for discovery.
               </p>
               <p>
-                I seek to unlock new understanding by solving meaningful problems and communicating novel insight
+                I seek to solve meaningful problems, unlock new understanding, and communicate novel insight
                 at the intersection of data and technology.
               </p>
             </div>
