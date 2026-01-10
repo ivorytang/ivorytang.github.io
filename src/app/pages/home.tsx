@@ -16,7 +16,7 @@ export function Home() {
             <div className="relative">
               <div className="w-80 h-80 rounded-full overflow-hidden border-4 border-primary/20 shadow-lg">
                 <img 
-                  src="/../../../img/profile-picture.jpg" 
+                  src="/img/profile-picture.jpg" 
                   alt="Ivory Tang" 
                   className="w-full h-full object-cover"
                 />
