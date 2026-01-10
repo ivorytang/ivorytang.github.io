@@ -15,11 +15,6 @@ export function Home() {
           >
             <div className="relative">
               <div className="w-80 h-80 rounded-full overflow-hidden border-4 border-primary/20 shadow-lg">
-                {/* Placeholder for headshot - replace with your image */}
-                {/* <div className="w-full h-full bg-gradient-to-br from-primary/10 via-blue-400/10 to-pink-400/10 flex items-center justify-center">
-                  <span className="text-6xl text-muted-foreground/30">👤</span>
-                </div> */}
-                {/* Uncomment below and add your image */}
                 <img 
                   src="/../../../img/profile-picture.jpg" 
                   alt="Ivory Tang" 
@@ -117,15 +112,15 @@ export function Home() {
               </motion.a>
             </div>
 
-            <motion.div
+            {/* <motion.div
               initial={{ opacity: 0 }}
               animate={{ opacity: 1 }}
               transition={{ delay: 1, duration: 1 }}
             >
-              {/* <p className="text-sm text-muted-foreground italic">
+              <p className="text-sm text-muted-foreground italic">
                 "In God we trust, all others must bring data." - W. Edwards Deming
-              </p> */}
-            </motion.div>
+              </p>
+            </motion.div> */}
           </motion.div>
         </div>
       </div>
