@@ -1,11 +1,7 @@
 
-  # Personalized Portfolio Website
+  # Ivory's Personal Website
 
-  This is a code bundle for Personalized Portfolio Website. The original project is available at https://www.figma.com/design/G6FRlROq3kneQIGCBLlrmJ/Personalized-Portfolio-Website.
+  [Link](https://typescript.tv/hands-on/deploy-your-typescript-website-on-github-pages/) to a resource I found very helpful to help me deploy this TypeScript website on Github Pages.
 
-  ## Running the code
 
-  Run `npm i` to install the dependencies.
-
-  Run `npm run dev` to start the development server.
   
